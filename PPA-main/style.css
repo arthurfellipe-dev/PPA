@@ -1,0 +1,139 @@
+body{
+	font-size:16px;
+	background:#F5F1F5;
+	font-family: 'Cormorant Garamond', serif;
+	background-image: url('img-fundo.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+#area-cabecalho{
+	text-align:center;
+	background:#593568;
+	padding:15px;
+	height: 100px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#area-menu{
+	float: right;
+	margin-top: 20px;
+}
+#area-logo{
+	float: left;
+	padding:10px;
+}
+h1, h2, h3{
+	color:#FFFFFF;
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size:2.5em;
+}
+
+#area-logo h3{
+    margin:0;
+    font-size:3.1em;
+    color:#FFFFFF;
+}
+a{
+	text-decoration:none;
+	font-size:1.2em;
+}
+a:link, a:visited{
+	color:white;
+	padding:12px;
+}
+a:hover{
+	background: #E76A9B;
+	color:#FFFFFF;
+}
+
+.banner{
+	margin-top: 5px;
+	width: 1800px;
+	text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+#principal{
+	width:1200px;
+	margin:0 auto;
+}
+.area-lateral{
+	color:#38313B;
+	width:250px;
+	background:#FFFFFF;
+	font-size:0.8em;
+	float:left;
+	margin-top:10px;
+	padding:8px;
+	text-align:justify;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius:5px;
+}
+.titulo-destaque{
+	background-color:#F4C95D;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	padding:1px;
+}
+
+.link-lateral a:link, .link-lateral a:visited{
+	color:#D94B45;
+	padding:0px;
+}
+
+.link-lateral a:hover{
+	text-decoration:underline;
+}
+
+.area-central{
+	margin-top:10px;
+	background:#FFFFFF;
+	width:910px;
+	text-align:justify;
+	padding:8px;
+	float:right;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius:5px;
+	line-height:1.5;
+}
+
+.conteudo-servico{
+	float:left;
+	width:575px;
+	background:#FFFFFF;
+	margin-top:10px;
+	padding:8px;
+	text-align:justify;
+	margin-right:8px;
+	border-radius:5px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.servico-principal{
+	background:#FFFFFF;
+	margin-top:10px;
+	padding:8px;
+	text-align:justify;
+	margin-right:8px;
+	border-radius:5px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.limpar{
+	clear:both;
+}
+
+.titulo-central{
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	color:#593568;
+}
